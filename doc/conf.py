@@ -9,6 +9,7 @@
 import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '../src'))
+sys.path.insert(0, os.path.abspath('../src'))
 import test_class
 import test_func
 
@@ -21,7 +22,7 @@ release = '0.1'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser']
+extensions = ['sphinx.ext.autodoc', 'myst_parser']
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
