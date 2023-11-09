@@ -8,7 +8,6 @@
 
 import sys
 import os
-import math
 sys.path.insert(0, os.path.abspath('../src'))
 import test_class
 import test_func
