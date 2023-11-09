@@ -12,3 +12,5 @@ Welcome to Example's documentation!
 
    some-feature.md
    another-feature.md
+   Documentation <some_docs/doc1>
+   "Documentation 2" <some_docs/doc2>

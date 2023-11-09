@@ -6,9 +6,15 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Example'
-copyright = 'workshop participant'
-author = 'workshop participant'
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '../src'))
+import test_class
+import test_func
+
+project = 'Sphinx test RTD GH Pages'
+copyright = 'None'
+author = 'Yeisonint'
 release = '0.1'
 
 
