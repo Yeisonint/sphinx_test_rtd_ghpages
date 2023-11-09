@@ -1,3 +1,3 @@
 .. autofunction:: test_func.func
 
-.. autofunction:: test_class.Person
+.. autoclass:: test_class::Person
