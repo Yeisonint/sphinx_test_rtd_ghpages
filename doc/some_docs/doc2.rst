@@ -1,3 +1,4 @@
-.. autofunction:: test_func.func
+Welcome Doc2 page!
+=======================================
 
-.. autoclass:: test_class::Person
+.. autofunction:: test_func.func
